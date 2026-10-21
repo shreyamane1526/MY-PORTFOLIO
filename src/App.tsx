@@ -1,3 +1,5 @@
+import bannerImg from '../public/images/shreya-sih-banner.jpg';
+import trophyImg from '../public/images/shreya-sih-trophy.png';
 import { useState, useEffect } from "react"
 import {
   Sun,
@@ -333,7 +335,7 @@ export default function App() {
               {/* Photo Box: Clear, crisp image without blue tint or blur */}
               <div className="border-2 border-[var(--border)] overflow-hidden bg-black aspect-[4/5] relative group shadow-[3px_3px_0px_var(--border)]">
                 <img
-                  src={photos[0].src}
+                  src={bannerImg}
                   alt={personalInfo.name}
                   className="w-full h-full object-cover object-top transition-transform duration-300 group-hover:scale-105"
                 />
@@ -668,7 +670,7 @@ export default function App() {
                   >
                     <div className="aspect-[16/11] bg-black overflow-hidden relative">
                       <img
-                        src={photo.src}
+                        src={pIdx === 0 ? bannerImg : trophyImg}
                         alt={photo.caption}
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                       />
@@ -958,7 +960,7 @@ export default function App() {
               <X className="w-5 h-5" />
             </button>
             <img
-              src={activePhoto.src}
+              src={activePhoto.title.includes("Banner") || activePhoto.title.includes("Grand Finale") ? bannerImg : trophyImg}
               alt={activePhoto.caption}
               className="w-full max-h-[75vh] object-contain bg-black"
             />
