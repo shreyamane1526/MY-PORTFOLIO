@@ -1,0 +1,10 @@
+{
+  "description": "An immersive, animated portfolio showcasing a backend engineering and AI student's projects, skills, and achievements with interactive visuals and smooth navigation.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
