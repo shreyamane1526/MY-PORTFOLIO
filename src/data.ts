@@ -111,13 +111,13 @@ export const technicalInterests: TechnicalInterest[] = [
 
 export const photos = [
   {
-    src: "/images/shreya-sih-banner.jpg",
+    src: "images/shreya-sih-banner.jpg",
     title: "Smart India Hackathon 2025 Grand Finale",
     caption: "Shreya Mane (Team Lead, Team TechTitans VJTI) with Winner Plaque & National Trophy for Ministry of Jal Shakti",
     tag: "National 1st Place Champion",
   },
   {
-    src: "/images/shreya-sih-trophy.png",
+    src: "images/shreya-sih-trophy.png",
     title: "Official SIH 2025 Award Ceremony",
     caption: "First place nationwide for Ministry of Jal Shakti problem statement at the Grand Finale ceremony",
     tag: "Grand Finale Winner",
